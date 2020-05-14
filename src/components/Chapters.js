@@ -76,7 +76,7 @@ import axios from 'axios'
   x.userChapterDetails.map(y=>(
 
     <li style={{paddingTop:"10px"}} key={y.id} onClick={e=>this.handleVideoChange(y.content,y.title,y.slug)}>
-      <div className="card" style={{width:"17rem" ,borderRadius:"1.25rem"}}>
+      <div className="card" style={{width:"17rem" ,borderRadius:"1.25rem",boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) "}}>
   <div className="card-body" style={{padding:"0px"}}>
       <img  className="rounded-circle" src={profile_pic} style={{width:'45px'}}></img>
 
