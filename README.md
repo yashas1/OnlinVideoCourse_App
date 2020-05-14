@@ -7,17 +7,13 @@
 -->type npm start (to start the server )
 -->server runs in http://localhost:3000/
 
-Note: If the components not allined wehen server is started refresh the paage and server (this is due to api data fecth issue )
+Note: 
+1>If the components not allined wehen server is started refresh the paage and server (this is due to api data fecth issue )
+
+>>>>>>>>>working process<<<<<<<<<<<<>>>>>>>>>>>>
+2>  click on the experts modules on right side bar that will open the chapter list and select any one of the chapter then video will be played 
 
 
 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 

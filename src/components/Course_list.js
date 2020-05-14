@@ -71,7 +71,7 @@ class Course_list extends Component {
             <div>
             
               <div style={{fontSize:"15px",fontFamily:"Arial",color:"#808080"}}><b>Expert Modules</b></div>
-              <ul className="Coureul"style={{listStyleType: "none",paddingLeft:"10px"}}>
+              <ul className="Coureul"style={{listStyleType: "none",paddingLeft:"10px",height:"280px"}}>
 
                {User_data.map(User_data => (
                 
@@ -93,6 +93,7 @@ class Course_list extends Component {
 
         
                </ul>
+               <div style={{padding:"12px"}}></div>
                <Chapters ModuleID={ModuleID} selectChapter={this.handleVideoChange}/>
             </div>
         )
