@@ -45,8 +45,7 @@ class Video_player extends Component {
     render() {
         const{User_date,videoRecived,titleRecived,}=this.state;
         const{Clicked_title,Clicked_video,Clicked_disc}=this.props;
-        
-        console.log(Clicked_disc)
+               
         return (
             
             <div className="row">

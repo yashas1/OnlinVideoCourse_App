@@ -16,8 +16,7 @@ import axios from 'axios'
         // You don't have to do this check first, but it can help prevent an unneeded render
         if (nextProps.ModuleID !== this.state.ModuleID) {
           this.setState({ ModuleID: nextProps.ModuleID });
-         console.log(nextProps.ModuleID)
-
+       
           axios({
             url: `https://stgapi.omnicuris.com/api/v3/courses?courseSlug=thyroid-in-pregnancy&moduleId=${nextProps.ModuleID}`,
             method: 'get',
@@ -54,7 +53,7 @@ import axios from 'axios'
         let profile_pic=[];
         let chapter_video=[];
         let chapter_title=[];
-       console.log(User_data)
+      
         User_data.map(x=>{
           x.userChapterDetails.map(y=>{
           y.chapterExperts.map(z=>{

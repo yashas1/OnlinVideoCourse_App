@@ -17,7 +17,7 @@ import Video_player from './Video_player'
         var title=title;
         var video=video;
         var disc=disc
-         console.log(video,title)
+        
          this.setState({Clicked_video:video,Clicked_title:title,Clicked_disc:disc})
         
        }

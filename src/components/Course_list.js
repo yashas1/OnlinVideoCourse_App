@@ -44,7 +44,7 @@ class Course_list extends Component {
          var veideo=veideo;
          var disc= disc;
          this.props.selectChapter(veideo,title,disc)
-          console.log(veideo,title)
+          
         }
    
 
